@@ -115,7 +115,7 @@ set :resque_rails_env, "my_resque_env"
 
 ### The tasks
 
-Running cap -vT | grep resque should give you...
+Running `cap -vT | grep resque` should give you...
 
 ```
 ➔ cap -vT | grep resque
