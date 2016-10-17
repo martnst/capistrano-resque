@@ -115,10 +115,10 @@ set :resque_rails_env, "my_resque_env"
 
 ### The tasks
 
-Running `cap -vT | grep resque` should give you...
+Running `cap -T | grep resque` should give you...
 
 ```
-➔ cap -vT | grep resque
+➔ cap -T | grep resque
 cap resque:status    # Check workers status
 cap resque:start     # Start Resque workers
 cap resque:stop      # Quit running Resque workers
